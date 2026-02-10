@@ -1,10 +1,10 @@
-# Wota48 🎤
+# Wota48 
 
 Wota48 is a premium JKT48 Fan Platform built with React Native and Expo. It offers a sleek, immersive experience for fans to explore videos, join discussions, track events, and collect digital photocards.
 
 ![Wota48 Logo](./assets/logo/LogoWota48.png)
 
-## ✨ Features
+##  Features
 
 - **Premium UI/UX**: High-fidelity Dark Mode design inspired by JKT48's aesthetic.
 - **Video Feed**: Watch the latest performances and JKT48 TV content with category filtering.
@@ -13,7 +13,7 @@ Wota48 is a premium JKT48 Fan Platform built with React Native and Expo. It offe
 - **Collections**: Track your watch history and digital photocard collection.
 - **Complete Onboarding**: Beautiful welcome and authentication flow.
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
@@ -50,17 +50,17 @@ Wota48 is a premium JKT48 Fan Platform built with React Native and Expo. It offe
 - **iOS Simulator**: Press `i` in the terminal.
 - **Web**: Press `w` in the terminal.
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 - **Framework**: [Expo](https://expo.dev/) / [React Native](https://reactnative.dev/)
 - **Navigation**: [Expo Router](https://docs.expo.dev/router/introduction/)
 - **Styling**: Vanilla React Native StyleSheet
 - **Icons**: SF Symbols (iOS) & Material Icons (Android) via `IconSymbol`
 
-## 📄 License
+##  License
 
 This project is for educational and fan purposes. All JKT48 related assets belong to JKT48 Operation Team.
 
 ---
 
-Developed with ❤️ by [zhaalys](https://github.com/zhaalys)
+Developed with by [zhaalys](https://github.com/zhaalys)
