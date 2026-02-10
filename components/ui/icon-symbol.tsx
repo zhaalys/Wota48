@@ -1,11 +1,14 @@
 // Fallback for using MaterialIcons on Android and web.
 
-import MaterialIcons from '@expo/vector-icons/MaterialIcons';
-import { SymbolWeight, SymbolViewProps } from 'expo-symbols';
-import { ComponentProps } from 'react';
-import { OpaqueColorValue, type StyleProp, type TextStyle } from 'react-native';
+import MaterialIcons from "@expo/vector-icons/MaterialIcons";
+import { SymbolViewProps, SymbolWeight } from "expo-symbols";
+import { ComponentProps } from "react";
+import { OpaqueColorValue, type StyleProp, type TextStyle } from "react-native";
 
-type IconMapping = Record<SymbolViewProps['name'], ComponentProps<typeof MaterialIcons>['name']>;
+type IconMapping = Record<
+  SymbolViewProps["name"],
+  ComponentProps<typeof MaterialIcons>["name"]
+>;
 type IconSymbolName = keyof typeof MAPPING;
 
 /**
@@ -14,10 +17,37 @@ type IconSymbolName = keyof typeof MAPPING;
  * - see SF Symbols in the [SF Symbols](https://developer.apple.com/sf-symbols/) app.
  */
 const MAPPING = {
-  'house.fill': 'home',
-  'paperplane.fill': 'send',
-  'chevron.left.forwardslash.chevron.right': 'code',
-  'chevron.right': 'chevron-right',
+  "house.fill": "home",
+  "paperplane.fill": "send",
+  "chevron.right": "chevron-right",
+  "play.circle.fill": "play-circle-filled",
+  calendar: "calendar-today",
+  "bubble.left.and.bubble.right.fill": "forum",
+  "person.fill": "person",
+  magnifyingglass: "search",
+  bell: "notifications",
+  "star.fill": "star",
+  clock: "schedule",
+  "bubble.left": "chat-bubble",
+  "person.2": "people",
+  ellipsis: "more-horiz",
+  "pin.fill": "push-pin",
+  plus: "add",
+  "play.fill": "play-arrow",
+  "gearshape.fill": "settings",
+  "checkmark.seal.fill": "verified",
+  "play.rectangle.fill": "video-library",
+  "square.grid.2x2.fill": "collections",
+  "calendar.badge.plus": "event-available",
+  globe: "language",
+  "lock.fill": "security",
+  "mappin.and.ellipse": "place",
+  "slider.horizontal.3": "filter-list",
+  "envelope.fill": "email",
+  "eye.fill": "visibility",
+  "eye.slash.fill": "visibility-off",
+  "chevron.left": "chevron-left",
+  "apple.logo": "apple",
 } as IconMapping;
 
 /**
@@ -37,5 +67,12 @@ export function IconSymbol({
   style?: StyleProp<TextStyle>;
   weight?: SymbolWeight;
 }) {
-  return <MaterialIcons color={color} size={size} name={MAPPING[name]} style={style} />;
+  return (
+    <MaterialIcons
+      color={color}
+      size={size}
+      name={MAPPING[name]}
+      style={style}
+    />
+  );
 }

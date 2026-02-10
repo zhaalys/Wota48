@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Fan Forum Hub - JKT48</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#ec1313",
+                        "background-light": "#f8f6f6",
+                        "background-dark": "#221010",
+                    },
+                    fontFamily: {
+                        "display": ["Plus Jakarta Sans"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+<style>
+        .glass-card {
+            background: rgba(255, 255, 255, 0.7);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+        }
+        .dark .glass-card {
+            background: rgba(34, 16, 16, 0.6);
+            border: 1px solid rgba(236, 19, 19, 0.1);
+        }
+        .safe-area-bottom {
+            padding-bottom: env(safe-area-inset-bottom);
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background-light dark:bg-background-dark font-display text-slate-900 dark:text-slate-100 min-h-screen">
+<!-- Status Bar Spacer (iOS Style) -->
+<div class="h-12 w-full bg-background-light dark:bg-background-dark sticky top-0 z-50">
+<div class="flex justify-between items-center px-6 h-full">
+<span class="text-sm font-semibold">9:41</span>
+<div class="flex space-x-1.5 items-center">
+<span class="material-icons-round text-[16px]">signal_cellular_alt</span>
+<span class="material-icons-round text-[16px]">wifi</span>
+<span class="material-icons-round text-[16px]">battery_full</span>
+</div>
+</div>
+</div>
+<!-- Header Section -->
+<header class="px-6 pt-2 pb-4 sticky top-12 bg-background-light/80 dark:bg-background-dark/80 backdrop-blur-md z-40">
+<div class="flex justify-between items-center mb-6">
+<h1 class="text-3xl font-bold tracking-tight">Forums</h1>
+<div class="flex space-x-3">
+<button class="w-10 h-10 rounded-full bg-white dark:bg-primary/10 flex items-center justify-center shadow-sm border border-slate-200 dark:border-primary/20">
+<span class="material-icons-round text-primary">search</span>
+</button>
+<button class="w-10 h-10 rounded-full bg-white dark:bg-primary/10 flex items-center justify-center shadow-sm border border-slate-200 dark:border-primary/20 relative">
+<span class="material-icons-round text-primary">notifications_none</span>
+<span class="absolute top-2.5 right-2.5 w-2 h-2 bg-primary rounded-full border-2 border-white dark:border-background-dark"></span>
+</button>
+</div>
+</div>
+<!-- Category Tabs -->
+<div class="flex overflow-x-auto no-scrollbar space-x-2 pb-2">
+<button class="px-5 py-2.5 bg-primary text-white rounded-full font-semibold text-sm whitespace-nowrap shadow-lg shadow-primary/20">
+                General
+            </button>
+<button class="px-5 py-2.5 bg-white dark:bg-primary/10 text-slate-600 dark:text-slate-300 border border-slate-200 dark:border-primary/20 rounded-full font-semibold text-sm whitespace-nowrap">
+                Theater
+            </button>
+<button class="px-5 py-2.5 bg-white dark:bg-primary/10 text-slate-600 dark:text-slate-300 border border-slate-200 dark:border-primary/20 rounded-full font-semibold text-sm whitespace-nowrap">
+                Fan Project
+            </button>
+<button class="px-5 py-2.5 bg-white dark:bg-primary/10 text-slate-600 dark:text-slate-300 border border-slate-200 dark:border-primary/20 rounded-full font-semibold text-sm whitespace-nowrap">
+                Trading Cards
+            </button>
+</div>
+</header>
+<!-- Discussion List -->
+<main class="px-6 pb-32 space-y-4">
+<!-- Thread Card 1 -->
+<div class="glass-card p-5 rounded-xl shadow-sm relative overflow-hidden group">
+<div class="flex items-start justify-between mb-3">
+<div class="flex items-center space-x-3">
+<img class="w-10 h-10 rounded-full object-cover ring-2 ring-primary/10" data-alt="Female user profile avatar" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDNpNQusYvz4ziFAD9-Sq-kwbb98rtAXd9oP9QK3VAQM4sCy4c_wYbVEPBg-h4loRR-k4LSmuTUCNUobF0-6iXu8vrSH7IKXmuoCYvB8OFMy2KKB3UQgaiFa4SF4p4_np3vv5qbpxNaGsgiPk1ZDKy4Wfz-K0ScXudLDOXC24c8cqObTFSxYcvh_BX7mP5VX-ZoTqG3TKSEYzQgHh3gUSodWQyuYCaxK7m66zBLRyaqDPFPaGyVdIcfcaTlFSuQeCIXRZ6iQHG9Qkqr"/>
+<div>
+<h4 class="text-[15px] font-bold text-slate-900 dark:text-white leading-tight">Review of today's Pajama Drive show (1st Row experience)</h4>
+<p class="text-[12px] text-slate-500 dark:text-slate-400 mt-1">Started by <span class="text-primary font-medium">MelodyLuv</span></p>
+</div>
+</div>
+<span class="material-icons-round text-slate-400 text-[20px]">more_horiz</span>
+</div>
+<p class="text-sm text-slate-600 dark:text-slate-300 line-clamp-2 mb-4">The energy was incredible! Marsha's performance in 'Tenshi no Shippo' really stood out today. Anyone else notice the new choreo tweak?</p>
+<div class="flex items-center justify-between pt-3 border-t border-slate-200/50 dark:border-white/5">
+<div class="flex items-center space-x-4">
+<div class="flex items-center space-x-1.5 text-slate-500 dark:text-slate-400">
+<span class="material-icons-round text-[16px]">schedule</span>
+<span class="text-[12px] font-medium">2m ago</span>
+</div>
+<div class="flex items-center space-x-1.5 text-slate-500 dark:text-slate-400">
+<span class="material-icons-round text-[16px]">forum</span>
+<span class="text-[12px] font-medium">124 replies</span>
+</div>
+</div>
+<div class="flex -space-x-2">
+<div class="w-6 h-6 rounded-full border-2 border-white dark:border-slate-800 bg-slate-200 overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="Small avatar of forum participant" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAUkW_TFDotNHQAww6sQ3q-xywP1zmV0c3hFH8rXetIQaMGlg1l3XXKlwKn_cA1WXnPahhkQNKRb2SKQ3Nss2_RSfPxwd-tEKvWoFqf4_gewG5XKbjeeTuVb3x2_WDg-MntbELG4wr0bn6Emi10sUcM5K44NUbeRUOFKlzo08xz4hMZ2cCbr-ezdblDwedCU0qasmsPQDT198lUmLb1kF_ij62jlHrYmLX4f-jCvpqOvuln-dx3Q3G1qcy0wIZvhSOHAww0S6K4LzoL"/>
+</div>
+<div class="w-6 h-6 rounded-full border-2 border-white dark:border-slate-800 bg-slate-200 overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="Small avatar of forum participant" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDgs27QBM29TXF3FdjA076V_XpKOSUWIwjyTRUFTZBbSSE8D5Zje_GlLg8n6WVrLB9ZYa56izTOkTBI0TVwKm8uHbqt41_rRgmLJeBogn16505vxodmPeZqY2IaaG3PAWH7EEYeVy3BM0zGvGdsbul_e9ljWoHA4U1_KEHht43gfEdIp9asj76NaTp1GYB_zmsr5Xkk59sez4-ZMlRy4TjZ7XbzHOIW6w-LVueV3WU6-ccldtcLe_9jG526tUdbdN-winEjssqUNb48"/>
+</div>
+<div class="w-6 h-6 rounded-full border-2 border-white dark:border-slate-800 bg-primary flex items-center justify-center text-[10px] text-white font-bold">
+                        +12
+                    </div>
+</div>
+</div>
+</div>
+<!-- Thread Card 2 -->
+<div class="glass-card p-5 rounded-xl shadow-sm relative overflow-hidden">
+<div class="flex items-start justify-between mb-3">
+<div class="flex items-center space-x-3">
+<img class="w-10 h-10 rounded-full object-cover ring-2 ring-primary/10" data-alt="User avatar for forum post" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDaM0n6CR_p-OjSFTUZdRt0Il7gMHZIi5twx5BYScD_Gcrv5oshKAuXKcp26EdYVP97j_JGfg8aqj2qentWCTL9c5_F2ydbfGjHipmwQiDEVzxk40dOj25oOFWcbmiB6Qt3slefshMVBVpVcn6xicHgDHerxj2cU2iACn0eBO44DfF-L_alXvphMKL25cX6vLm1yYXe64_2jLrKKmyRYmFtDS-YhGnEA4iChaJEl-5vMGMb0LfE-P_nrd8li392yJEfm_BT1RyxEy_8"/>
+<div>
+<h4 class="text-[15px] font-bold text-slate-900 dark:text-white leading-tight">Gree Day Trading Card Exchange (Gen 10 &amp; 11)</h4>
+<p class="text-[12px] text-slate-500 dark:text-slate-400 mt-1">Started by <span class="text-primary font-medium">OshiHunter</span></p>
+</div>
+</div>
+<span class="material-icons-round text-slate-400 text-[20px]">more_horiz</span>
+</div>
+<div class="flex items-center justify-between pt-3 border-t border-slate-200/50 dark:border-white/5">
+<div class="flex items-center space-x-4">
+<div class="flex items-center space-x-1.5 text-slate-500 dark:text-slate-400">
+<span class="material-icons-round text-[16px]">schedule</span>
+<span class="text-[12px] font-medium">15m ago</span>
+</div>
+<div class="flex items-center space-x-1.5 text-slate-500 dark:text-slate-400">
+<span class="material-icons-round text-[16px]">people_outline</span>
+<span class="text-[12px] font-medium">86 active</span>
+</div>
+</div>
+<span class="px-2 py-1 bg-primary/10 text-primary text-[10px] font-bold rounded uppercase tracking-wider">Trading</span>
+</div>
+</div>
+<!-- Thread Card 3 (Featured) -->
+<div class="bg-primary p-5 rounded-xl shadow-lg relative overflow-hidden">
+<div class="absolute top-0 right-0 p-3 opacity-20">
+<span class="material-icons-round text-6xl">campaign</span>
+</div>
+<div class="flex items-start justify-between mb-3 relative z-10">
+<div class="flex items-center space-x-3">
+<div class="w-10 h-10 rounded-full bg-white/20 flex items-center justify-center border border-white/30">
+<span class="material-icons-round text-white">stars</span>
+</div>
+<div>
+<h4 class="text-[15px] font-bold text-white leading-tight">[OFFICIAL] JKT48 12th Anniversary Fan Project Megathread</h4>
+<p class="text-[12px] text-white/70 mt-1">Moderator Announcement</p>
+</div>
+</div>
+</div>
+<p class="text-sm text-white/90 mb-4 relative z-10">Submit your creative ideas for the upcoming anniversary project here. Let's make it the best one yet!</p>
+<div class="flex items-center justify-between pt-3 border-t border-white/10 relative z-10">
+<div class="flex items-center space-x-4">
+<div class="flex items-center space-x-1.5 text-white/80">
+<span class="material-icons-round text-[16px]">schedule</span>
+<span class="text-[12px] font-medium">1h ago</span>
+</div>
+<div class="flex items-center space-x-1.5 text-white/80">
+<span class="material-icons-round text-[16px]">forum</span>
+<span class="text-[12px] font-medium">1.2k replies</span>
+</div>
+</div>
+<div class="flex -space-x-2">
+<div class="w-6 h-6 rounded-full border-2 border-primary bg-white/20 flex items-center justify-center text-[10px] text-white font-bold">
+<span class="material-icons-round text-[14px]">push_pin</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Thread Card 4 -->
+<div class="glass-card p-5 rounded-xl shadow-sm relative overflow-hidden">
+<div class="flex items-start justify-between mb-3">
+<div class="flex items-center space-x-3">
+<img class="w-10 h-10 rounded-full object-cover ring-2 ring-primary/10" data-alt="Male user profile avatar" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBKCqha_fXqBnEAnWeZuybZGUJsluVHzweQy9Gb3JCQPvL1M5Ch4eHdrSxHQYQmDkZgZZkr8HmzxuOkZB5tUeOztoloe1gwWyaoMWLF53JUk9u2xwNW5mfvnmmvFXGeeB8Ez-xNFLpnrtgShiT4ssy1jWpCd9uT_TugCMy1zufT8S4YMr2L06J45MBTKc2InbtKY4Vo4eKKJyabApU7VzW24ZEaJk4IJYqwZ5qNit8YE010v6IYdeI-5afb7pUNON0-rVb98B8PikPl"/>
+<div>
+<h4 class="text-[15px] font-bold text-slate-900 dark:text-white leading-tight">When will the next Seitansai schedule be released?</h4>
+<p class="text-[12px] text-slate-500 dark:text-slate-400 mt-1">Started by <span class="text-primary font-medium">TheaterGoer88</span></p>
+</div>
+</div>
+<span class="material-icons-round text-slate-400 text-[20px]">more_horiz</span>
+</div>
+<div class="flex items-center justify-between pt-3 border-t border-slate-200/50 dark:border-white/5">
+<div class="flex items-center space-x-4">
+<div class="flex items-center space-x-1.5 text-slate-500 dark:text-slate-400">
+<span class="material-icons-round text-[16px]">schedule</span>
+<span class="text-[12px] font-medium">45m ago</span>
+</div>
+<div class="flex items-center space-x-1.5 text-slate-500 dark:text-slate-400">
+<span class="material-icons-round text-[16px]">forum</span>
+<span class="text-[12px] font-medium">32 replies</span>
+</div>
+</div>
+<span class="px-2 py-1 bg-slate-100 dark:bg-white/5 text-slate-500 dark:text-slate-400 text-[10px] font-bold rounded uppercase tracking-wider">Theater</span>
+</div>
+</div>
+<!-- Thread Card 5 -->
+<div class="glass-card p-5 rounded-xl shadow-sm relative overflow-hidden">
+<div class="flex items-start justify-between mb-3">
+<div class="flex items-center space-x-3">
+<img class="w-10 h-10 rounded-full object-cover ring-2 ring-primary/10" data-alt="Female user profile avatar" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAF1BgPX6Z38m_rXydrwW92_XI7XBQPP_KDKyFaDfXv6almITHyPXSPBII7Bf1K2ISWTkzoR-_heiSFaak5O5oDZ0Gb6ronPhC6vJ2Bc_JrPVCf1BVrZIFwOuAwAGRUo3oX3rVgR86a2Mttx9GXuaLUkdODMju_sjms4MoekHjjcTvXTMXtNpd2mJLe70luOvlEKB6W__018C0cl4mI-3SpwYNF61DNcY3AKiZC3PV2gIWpoVbW9psJo_Zi0RkQKoo6QLxNf18c7E3t"/>
+<div>
+<h4 class="text-[15px] font-bold text-slate-900 dark:text-white leading-tight">New Digital Photobook is out! Thoughts?</h4>
+<p class="text-[12px] text-slate-500 dark:text-slate-400 mt-1">Started by <span class="text-primary font-medium">JKT48Collector</span></p>
+</div>
+</div>
+<span class="material-icons-round text-slate-400 text-[20px]">more_horiz</span>
+</div>
+<div class="flex items-center justify-between pt-3 border-t border-slate-200/50 dark:border-white/5">
+<div class="flex items-center space-x-4">
+<div class="flex items-center space-x-1.5 text-slate-500 dark:text-slate-400">
+<span class="material-icons-round text-[16px]">schedule</span>
+<span class="text-[12px] font-medium">1h ago</span>
+</div>
+<div class="flex items-center space-x-1.5 text-slate-500 dark:text-slate-400">
+<span class="material-icons-round text-[16px]">forum</span>
+<span class="text-[12px] font-medium">58 replies</span>
+</div>
+</div>
+<span class="px-2 py-1 bg-slate-100 dark:bg-white/5 text-slate-500 dark:text-slate-400 text-[10px] font-bold rounded uppercase tracking-wider">General</span>
+</div>
+</div>
+</main>
+<!-- Floating Action Button -->
+<button class="fixed bottom-24 right-6 w-14 h-14 bg-primary text-white rounded-full shadow-xl flex items-center justify-center z-50 hover:scale-105 active:scale-95 transition-transform">
+<span class="material-icons-round text-[28px]">add</span>
+</button>
+<!-- Bottom Navigation Bar (iOS Style) -->
+<nav class="fixed bottom-0 left-0 right-0 bg-white/90 dark:bg-background-dark/90 backdrop-blur-xl border-t border-slate-200 dark:border-white/10 z-50 safe-area-bottom">
+<div class="flex justify-around items-center h-16 px-4">
+<button class="flex flex-col items-center justify-center space-y-1 text-slate-400">
+<span class="material-icons-round">play_circle_outline</span>
+<span class="text-[10px] font-semibold">Shows</span>
+</button>
+<button class="flex flex-col items-center justify-center space-y-1 text-slate-400">
+<span class="material-icons-round">calendar_today</span>
+<span class="text-[10px] font-semibold">Events</span>
+</button>
+<button class="flex flex-col items-center justify-center space-y-1 text-primary">
+<span class="material-icons-round">forum</span>
+<span class="text-[10px] font-semibold">Forum</span>
+</button>
+<button class="flex flex-col items-center justify-center space-y-1 text-slate-400">
+<span class="material-icons-round">person_outline</span>
+<span class="text-[10px] font-semibold">Profile</span>
+</button>
+</div>
+<!-- iOS Home Indicator -->
+<div class="flex justify-center pb-2">
+<div class="w-32 h-1 bg-slate-300 dark:bg-slate-700 rounded-full"></div>
+</div>
+</nav>
+</body></html>

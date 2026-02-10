@@ -1,50 +1,66 @@
-# Welcome to your Expo app 👋
+# Wota48 🎤
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Wota48 is a premium JKT48 Fan Platform built with React Native and Expo. It offers a sleek, immersive experience for fans to explore videos, join discussions, track events, and collect digital photocards.
 
-## Get started
+![Wota48 Logo](./assets/logo/LogoWota48.png)
 
-1. Install dependencies
+## ✨ Features
 
-   ```bash
-   npm install
-   ```
+- **Premium UI/UX**: High-fidelity Dark Mode design inspired by JKT48's aesthetic.
+- **Video Feed**: Watch the latest performances and JKT48 TV content with category filtering.
+- **Fan Forum**: A dedicated space for community discussions with Star and Reply features.
+- **Event Tracker**: Stay updated on theater shows and upcoming concerts.
+- **Collections**: Track your watch history and digital photocard collection.
+- **Complete Onboarding**: Beautiful welcome and authentication flow.
 
-2. Start the app
+## 🚀 Getting Started
 
-   ```bash
-   npx expo start
-   ```
+### Prerequisites
 
-In the output, you'll find options to open the app in a
+- [Node.js](https://nodejs.org/) (LTS version recommended)
+- [Expo Go](https://expo.dev/go) app on your iOS or Android device (for physical testing)
+- [Git](https://git-scm.com/)
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+### Installation
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+1.  **Clone the repository:**
 
-## Get a fresh project
+    ```bash
+    git clone https://github.com/zhaalys/Wota48.git
+    cd Wota48
+    ```
 
-When you're ready, run:
+2.  **Install dependencies:**
 
-```bash
-npm run reset-project
-```
+    ```bash
+    npm install
+    # or
+    yarn install
+    ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+3.  **Start the development server:**
+    ```bash
+    npm start
+    ```
 
-## Learn more
+### Running the App
 
-To learn more about developing your project with Expo, look at the following resources:
+- **Mobile**: Scan the QR code shown in your terminal using the **Expo Go** app.
+- **Android Emulator**: Press `a` in the terminal.
+- **iOS Simulator**: Press `i` in the terminal.
+- **Web**: Press `w` in the terminal.
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+## 🛠 Tech Stack
 
-## Join the community
+- **Framework**: [Expo](https://expo.dev/) / [React Native](https://reactnative.dev/)
+- **Navigation**: [Expo Router](https://docs.expo.dev/router/introduction/)
+- **Styling**: Vanilla React Native StyleSheet
+- **Icons**: SF Symbols (iOS) & Material Icons (Android) via `IconSymbol`
 
-Join our community of developers creating universal apps.
+## 📄 License
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+This project is for educational and fan purposes. All JKT48 related assets belong to JKT48 Operation Team.
+
+---
+
+Developed with ❤️ by [zhaalys](https://github.com/zhaalys)
